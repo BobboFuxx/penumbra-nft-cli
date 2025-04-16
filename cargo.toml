@@ -1,0 +1,9 @@
+[package]
+name = "penumbra-nft-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+penumbra-nft = { path = "../penumbra-nft" }
+serde_json = "1.0"
